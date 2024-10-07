@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: "Saira Condensed", sans-serif;
+    background-color: #A0937D;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #7776B3;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+.display {
+    width: 100%;
+    height: 80px;
+    font-size: 32px;
+    text-align: right;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 1px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+    font-family: "Saira Condensed", sans-serif;
+    
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #402E7A;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.button1 {
+    width: 210px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #83B4FF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.button:hover {
+    background-color: #5A639C;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button:nth-child(4n) {
+    background-color: #9B86BD;
+    /* Cor diferente para operadores */
+}
+
+.button:nth-child(4n):hover {
+    background-color: #E2BBE9;
+}
+
